@@ -1,0 +1,14 @@
+// src/scss/term-page.scss
+.term-page {
+    .bg-light {
+        border: 1px solid #dee2e6;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+    }
+    .list-group-item {
+        border: none;
+        border-bottom: 1px solid #dee2e6;
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}

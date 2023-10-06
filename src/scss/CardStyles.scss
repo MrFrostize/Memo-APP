@@ -1,0 +1,29 @@
+// scss/CardStyles.scss
+@import "~bootstrap/scss/bootstrap";
+.card {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    
+    &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.btn {
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+    
+    &:hover {
+        background-color: darken($color: #007bff, $amount: 10%);
+    }
+}

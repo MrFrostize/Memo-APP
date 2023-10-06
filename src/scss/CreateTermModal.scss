@@ -1,0 +1,14 @@
+// src/styles/CreateTermModal.scss
+.create-term-modal {
+  .modal-header,
+  .modal-footer {
+    background-color: #f8f9fa;
+    border: none;
+  }
+  .modal-title {
+    font-weight: bold;
+  }
+  .btn-secondary {
+    margin-left: 10px;
+  }
+}

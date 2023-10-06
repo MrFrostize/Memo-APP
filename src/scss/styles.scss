@@ -1,0 +1,20 @@
+// src/scss/styles.scss
+
+// Définition des variables de couleur
+$primary: #008CBA;  // Turquoise
+$secondary: #e27d60;  // Rouge terne
+$success: #85dcb0;  // Vert clair
+$info: #e8a87c;  // Orange clair
+$warning: #c38d9e;  // Rose clair
+$danger: #41b3a3;  // Vert d'eau
+$dark: #2c3e50;  // Bleu foncé
+$light: #eae7dc;  // Gris clair
+
+// Import de Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import 'buttonstyles';
+@import 'CreateTermModal';
+@import 'Dashboard';
+@import 'term-page';
+@import 'CardStyles';
+// Votre CSS personnalisé peut aller ici
